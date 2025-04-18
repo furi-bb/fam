@@ -36,6 +36,7 @@ strong {
 a {
     text-decoration: none;
     font-weight: 500;
+    color: #ffc107;
 }
 
 footer {
@@ -314,17 +315,18 @@ ranks page
 
 .rank-info-section {
     flex: 0 0 49%;
-    background-color: rgba(75, 75, 75, 0.2);
+    background-color: rgba(100, 100, 100, 0.2);
     padding: 0.5rem;
     border-radius: 0.6em;
 }
 
 .rank-info-section-title {
     font-size: 1.2rem;
-    background-color: rgba(75, 75, 75, 0.3);
+    background-color: rgba(121, 121, 121, 0.3);
     margin-bottom: 0.5rem;
     padding: 0.5rem 0;
     border-radius: 0.6rem;
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 580px) {
@@ -338,4 +340,33 @@ ranks page
     .rank-item-header {
         flex-direction: column;
     }
+}
+
+.subsection-list {
+    text-align: left;
+}
+
+.subsection-list-item {
+    list-style: inside "☑";
+    font-size: 1.1rem;
+    padding-bottom: 0.8rem;
+    color: rgba(255, 193, 7, 0.8);
+}
+
+.smaller-font-item {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.link-hover-highlight:visited,
+.link-hover-highlight:hover,
+.link-hover-highlight:focus,
+.link-hover-highlight:active {
+    box-shadow: rgba(255, 193, 7, 0.5) 0 0 0.5rem;
+}
+
+.muted-title {
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+    text-transform: initial;
 }
