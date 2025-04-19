@@ -335,6 +335,10 @@ ranks page
         gap: 2rem;
         padding-bottom: 3rem;
     }
+
+    .rank-info-section {
+        flex: 0 1 49%;
+    }
 }
 @media (max-width: 310px) {
     .rank-item-header {
