@@ -374,3 +374,47 @@ ranks page
     text-shadow: none;
     text-transform: initial;
 }
+.btn-flex-container {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+
+.btn-flex-link {
+    font-size: 1.2rem;
+    color: #cccccc;
+    background-color: rgba(220, 53, 69, 0.7);
+    border: 3px solid #ffc107;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 0 auto;
+    box-shadow: 0 0 .6rem rgba(255, 193, 7, 0.8);
+    text-shadow: black 0 0 0.2rem;
+    flex: 1 0 fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-flex-link:hover {
+    color: #3a3a3a;
+    background-color: rgba(255, 193, 7, 0.7);
+    text-shadow: none;
+}
+
+.res-info-container {
+    padding: 1.5rem;
+}
+
+.subsection-list-item-events {
+    list-style: inside "⭐";
+    font-size: 1.1rem;
+    padding-bottom: 0.8rem;
+    color: rgba(255, 193, 7, 0.8);
+}
+.embedded-full {
+    width: 100%;
+    border: 0.1rem solid #ffc107;
+    border-radius: 1rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
