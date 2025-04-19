@@ -97,7 +97,7 @@ navigation
 .top-nav-link {
     flex: 1 0 1rem;
     box-shadow: 0 0 0.7rem rgba(0, 0, 0, .8);
-    border: rgba(255, 193, 7, 0.2) 1px solid;
+    border: rgba(255, 193, 7, 0.2) 0.1rem solid;
 }
 
 .top-nav-link:link, .top-nav-link:visited {
@@ -216,7 +216,7 @@ about-grid
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
     margin: 0 1rem;
 }
 
